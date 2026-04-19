@@ -21,7 +21,7 @@ import { cn } from '@/lib/utils'
 import { AnimatedGradientText } from '@/components/ui/animated-gradient-text'
 import { suggestions } from '@/data/Constant'
 import { useUser } from '@clerk/nextjs'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation';
 
 export default function Hero() {
     const [userInput,setUserInput]=useState<string>()
@@ -35,6 +35,7 @@ export default function Hero() {
             return;
 
         }
+        //Create New Project
     }
 
 
