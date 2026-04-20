@@ -1,0 +1,9 @@
+DATABASE_URL="postgresql://neondb_owner:npg_b6mdlorp4XKy@ep-dawn-voice-a7tn6cvk-pooler.ap-southeast-2.aws.neon.tech/uiux-app-mockup?sslmode=require&channel_binding=require"
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_bmVhdC1lbXUtODguY2xlcmsuYWNjb3VudHMuZGV2JA
+CLERK_SECRET_KEY=sk_test_MYfTRqv1NtH0k28bycd9oh8lrLhnT51IHmmVjh2bxS
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL=/
+NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/
